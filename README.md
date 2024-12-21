@@ -90,6 +90,21 @@ Benchmarks the performance of Classical LIME and Q-LIME:
 **Text Highlighting**
 Highlighted text with top contributing words color-coded (green for positive, red for negative).
 
+
+### Benchmark Results
+**Benchmark Test Output:**
+
+```
+=== BENCHMARK RESULTS (Flip Only 1->0) ===
+max_feats | Acc  | LIME_time | QLIME_time | Overlap
+        5 | 0.450 | 1.126   | 0.005      | 2.50
+       10 | 0.580 | 1.130   | 0.010      | 3.10
+       15 | 0.600 | 1.079   | 0.075      | 2.90
+       20 | 0.610 | 1.464   | 0.807      | 3.40
+```
+
+This benchmark demonstrates the trade-offs in runtime and overlap as the feature size increases.
+
 ---
 
 ## Citation
