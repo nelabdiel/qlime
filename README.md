@@ -85,7 +85,7 @@ Benchmarks the performance of Classical LIME and Q-LIME:
 
 ### Q-LIME Visualization
 **Bar Graph for Feature Contributions**
-![Bar Graph Example](bar_example.png)
+![Bar Graph Example](images/bar_example.png)
 
 **Text Highlighting**
 Highlighted text with top contributing words color-coded (green for positive, red for negative).
