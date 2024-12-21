@@ -42,33 +42,40 @@ This project uses the IMDb sentiment analysis dataset. Download the dataset from
 
 ## Usage
 
-### 1. Running the Example with Q-LIME
-This script runs Q-LIME on a random sample of the IMDb dataset, visualizes feature contributions as a bar graph, and highlights the top contributing words directly on the text.
-```python
-python main.py
-```
+### Running the Main Script
+The `main.py` script acts as the central entry point for the project, allowing users to execute key functionalities through a command-line interface (CLI). Choose from the following tasks:
 
-### 2. Classical and Quantum LIME Comparison
-The comparison script measures the runtime and feature overlap between Classical LIME and Q-LIME for several text samples. Adjust parameters such as `max_features` to test different configurations.
+1. **Run Q-LIME Example Visualization**:
+   - Visualizes feature contributions for a single text sample with a horizontal bar graph and highlights top contributing words directly on the text.
+   ```bash
+   python main.py example
+   ```
 
-### 3. Benchmarking Performance
-The benchmark script evaluates both methods across varying numbers of features, reporting accuracy, runtime, and overlap in top feature rankings.
+2. **Run Classical vs Quantum LIME Comparison**:
+   - Compares runtime and feature overlap between Classical LIME and Q-LIME Pi.
+   ```bash
+   python main.py comparison
+   ```
 
----
+3. **Run Benchmark Tests**:
+   - Evaluates runtime, accuracy, and feature overlap across multiple configurations.
+   ```bash
+   python main.py benchmark
+   ```
 
-## Files
+### Script-Specific Functionality
 
-### `highlighting.py`
+#### `highlighting.py`
 Contains the implementation of Q-LIME with:
 - Horizontal bar graph visualization of feature contributions.
 - Color-coded text highlighting for top features in Jupyter Notebook.
 
-### `comparison.py`
+#### `comparison.py`
 Compares Classical LIME and Q-LIME:
 - Measures runtime and top feature overlap.
 - Prints top-5 features for both methods.
 
-### `benchmark.py`
+#### `benchmark.py`
 Benchmarks the performance of Classical LIME and Q-LIME:
 - Reports metrics for varying feature dimensions and dataset sizes.
 
@@ -78,7 +85,7 @@ Benchmarks the performance of Classical LIME and Q-LIME:
 
 ### Q-LIME Visualization
 **Bar Graph for Feature Contributions**
-![Bar Graph Example](example_bar_graph.png)
+![Bar Graph Example](bar_example.png)
 
 **Text Highlighting**
 Highlighted text with top contributing words color-coded (green for positive, red for negative).
@@ -90,7 +97,7 @@ If you use this repository in your work, please cite as:
 ```
 @article{qlime2024,
   title={Q-LIME: Quantum LIME for Text Explanations},
-  author={Nelson A. Colon Vargas},
+  author={Your Name},
   year={2024},
   url={https://github.com/nelabdiel/qlime}
 }
