@@ -19,6 +19,10 @@ This repository contains the implementation of **Q-LIME Pi (Quantum LIME)**, a q
 
 ---
 
+This folder contains the exploratory work of Q-LIME Pi. For python package visit: https://github.com/nelabdiel/q_lime_package/
+
+---
+
 ## Installation
 
 ### Prerequisites
