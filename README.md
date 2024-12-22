@@ -117,7 +117,7 @@ If you use this repository in your work, please cite as:
 ```
 @article{qlime2024,
   title={Q-LIME Pi: Quantum LIME for Text Explanations},
-  author={Your Name},
+  author={Nelson Colon Vargas},
   year={2024},
   url={https://github.com/nelabdiel/qlime}
 }
