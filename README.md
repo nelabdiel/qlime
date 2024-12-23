@@ -1,5 +1,5 @@
 ![Q-Lime banner](images/qlime_banner.webp)
-# Q-LIME pi: Quantum LIME for Text Explanations
+# Q-LIME $\pi$: Quantum LIME for Text Explanations
 
 This repository contains the implementation of **Q-LIME Pi (Quantum LIME)**, a quantum-inspired extension of LIME (Local Interpretable Model-agnostic Explanations), applied to text-based machine learning tasks. Q-LIME leverages quantum-inspired methods to explore the impact of flipping binary features on a model's output more efficiently.
 
