@@ -1,25 +1,25 @@
 ![Q-Lime banner](images/qlime_banner.webp)
 # Q-LIME $\pi$: Quantum LIME for Text Explanations
 
-This repository contains the implementation of **Q-LIME Pi (Quantum LIME)**, a quantum-inspired extension of LIME (Local Interpretable Model-agnostic Explanations), applied to text-based machine learning tasks. Q-LIME leverages quantum-inspired methods to explore the impact of flipping binary features on a model's output more efficiently.
+This repository contains the implementation of **Q-LIME $\pi$ (Quantum LIME)**, a quantum-inspired extension of LIME (Local Interpretable Model-agnostic Explanations), applied to text-based machine learning tasks. Q-LIME leverages quantum-inspired methods to explore the impact of flipping binary features on a model's output more efficiently.
 
 ## Features
 
 ### 1. Classical and Quantum LIME Comparison
 - **Classical LIME**: Perturbs features to evaluate their impact on model predictions using a standard implementation.
-- **Q-LIME Pi**: Uses quantum-inspired binary encoding and flipping to compute feature importance.
+- **Q-LIME $\pi$**: Uses quantum-inspired binary encoding and flipping to compute feature importance.
 
 ### 2. Feature Visualization
 - Horizontal bar graph visualization for feature contributions.
 - Color-coded feature importance visualization directly on the text using HTML in Jupyter Notebooks.
 
 ### 3. Performance Evaluation
-- Benchmark comparisons between Classical LIME and Q-LIME Pi.
+- Benchmark comparisons between Classical LIME and Q-LIME $\pi$.
 - Metrics include runtime, accuracy, and overlap in top features.
 
 ---
 
-This folder contains the exploratory work of Q-LIME Pi. For python package visit: https://github.com/nelabdiel/q_lime_package/
+This folder contains the exploratory work of Q-LIME $\pi$. For python package visit: https://github.com/nelabdiel/q_lime_package/
 
 ---
 
@@ -57,7 +57,7 @@ The `main.py` script acts as the central entry point for the project, allowing u
    ```
 
 2. **Run Classical vs Quantum LIME Comparison**:
-   - Compares runtime and feature overlap between Classical LIME and Q-LIME Pi.
+   - Compares runtime and feature overlap between Classical LIME and Q-LIME $\pi$.
    ```bash
    python main.py comparison
    ```
@@ -116,7 +116,7 @@ This benchmark demonstrates the trade-offs in runtime and overlap as the feature
 If you use this repository in your work, please cite as:
 ```
 @article{qlime2024,
-  title={Q-LIME Pi: Quantum LIME for Text Explanations},
+  title={Q-LIME $\pi$: Quantum LIME for Text Explanations},
   author={Nelson Colon Vargas},
   year={2024},
   url={https://github.com/nelabdiel/qlime}
