@@ -119,7 +119,7 @@ If you use this repository in your work, please cite as:
   title={Q-LIME $\pi$: Quantum LIME for Text Explanations},
   author={Nelson Colon Vargas},
   year={2024},
-  url={https://arxiv.org/abs/2412.17197}
+  url={https://doi.org/10.48550/arXiv.2412.17197}
 }
 ```
 
